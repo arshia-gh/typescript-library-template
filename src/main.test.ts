@@ -1,5 +1,5 @@
 import { afterAll, it, expect, vi, describe } from 'vitest';
-import { LogHello } from 'src/main';
+import { Add, LogHello } from 'src/main';
 
 describe('LogHello', () => {
 	const consoleMock = vi
@@ -14,5 +14,11 @@ describe('LogHello', () => {
 		LogHello();
 		expect(consoleMock).toHaveBeenCalledOnce();
 		expect(consoleMock).toHaveBeenLastCalledWith('Hello, World');
+	});
+});
+
+describe('Add', () => {
+	it('should add two numbers', () => {
+		expect(Add(1, 2)).toBe(3);
 	});
 });

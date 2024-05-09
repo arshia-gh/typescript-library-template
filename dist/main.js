@@ -4,4 +4,7 @@ export function LogHello(name) {
 export function Add(a, b) {
     return a + b;
 }
+export function Sub(a, b) {
+    return a - b;
+}
 //# sourceMappingURL=main.js.map

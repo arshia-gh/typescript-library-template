@@ -1,0 +1,16 @@
+{
+	"extends": ["@tsconfig/strictest/tsconfig.json"],
+	"compilerOptions": {
+		"outDir": "dist",
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"forceConsistentCasingInFileNames": false,
+		"module": "ESNext",
+		"target": "ESNext",
+		"moduleResolution": "Bundler",
+		"skipLibCheck": true,
+		"baseUrl": "."
+	},
+	"include": ["src/**/*.ts"]
+}

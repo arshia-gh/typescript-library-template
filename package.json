@@ -25,11 +25,11 @@
 		"name": "Arshia Gh"
 	},
 	"repository": {
-		"url": "https://github.com/arshia-gh/templates",
+		"url": "https://github.com/arshia-gh/typescript-library-template",
 		"type": "git"
 	},
 	"bugs": {
-		"url": "https://github.com/arshia-gh/templates/issues"
+		"url": "https://github.com/arshia-gh/typescript-library-template/issues"
 	},
 	"license": "MIT",
 	"devDependencies": {

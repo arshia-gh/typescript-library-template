@@ -9,3 +9,7 @@ export function Add(a: number, b: number) {
 export function Sub(a: number, b: number) {
 	return a - b;
 }
+
+export function Mul(a: number, b: number) {
+	return a * b;
+}

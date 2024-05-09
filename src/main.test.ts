@@ -1,5 +1,5 @@
 import { afterAll, it, expect, vi, describe } from 'vitest';
-import { Add, LogHello } from 'src/main';
+import { Add, LogHello, Sub } from 'src/main';
 
 describe('LogHello', () => {
 	const consoleMock = vi
@@ -20,5 +20,11 @@ describe('LogHello', () => {
 describe('Add', () => {
 	it('should add two numbers', () => {
 		expect(Add(1, 2)).toBe(3);
+	});
+});
+
+describe('Sub', () => {
+	it('should subtract two numbers', () => {
+		expect(Sub(1, 2)).toBe(-1);
 	});
 });

@@ -5,3 +5,7 @@ export function LogHello(name?: string) {
 export function Add(a: number, b: number) {
 	return a + b;
 }
+
+export function Sub(a: number, b: number) {
+	return a - b;
+}
